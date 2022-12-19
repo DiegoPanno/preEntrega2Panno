@@ -11,7 +11,27 @@
 
 /*----Menu----*/
 
-header {
+.envios {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    size: 5px;
+}
+
+.img-logo-nav {
+    width: 85px;
+    height: 85px;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+
+
+
+
+/* header {
     border: 2px solid red;
     border: #363636;
     background-color: #615f5f;
@@ -22,10 +42,6 @@ header {
     border-bottom: 5px solid rgba(0, 0, 0, 0.445);
 }
 
-h1 {
-    font-size: 35px;
-    color: white;
-}
 
 .menu li a {
     text-decoration: none;
@@ -51,7 +67,7 @@ header nav ul {
     list-style-type: none;
     padding-left: 50px;
     font-size: 18px;
-}
+} */
 
 /*----Botones---*/
 
@@ -75,8 +91,13 @@ header nav ul {
 }
 
 /*-----Carrusel-----*/
+h1 {
+   text-align: center;
+   color: #615f5f;
+   margin: 20px;
+}
 
-.colorCarrusel {
+/* .colorCarrusel {
     background-color: rgba(0, 0, 0, 0.116);
     border: 1px solid rgba(0, 0, 0, 0.082);
 
@@ -105,7 +126,7 @@ header nav ul {
     align-items: center;
     justify-content: space-between;
     padding: 10vh;
-}
+} */
 
 /*------whatsapp-----*/
 
@@ -117,13 +138,13 @@ header nav ul {
 
 /**-----Quines somos----*/
 
-.titulo-quienes-somos h2 {
+/* .titulo-quienes-somos h2 {
     background-color: #04fcb231;
     color: #615f5f;
     height: 200px;
     text-align: center;
     padding: 80px;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .parrafo-imagen {
@@ -140,6 +161,12 @@ header nav ul {
     padding: 5px 5px;
     font-size: 15px;
     color: #363636;
+} */
+
+.img-quienes-somos {
+    height: 50vh;
+    width: 50vh;
+    padding: 10px;
 }
 
 
@@ -233,8 +260,17 @@ header nav ul {
 
 /*----Footer----*/
 
+.logo-footer {
+    height: 80px;
+    width: 80px;
+}
 
-.copyright {
+#hover-footer:hover {
+    background-color: #252525;
+    
+}
+
+/* .copyright {
     background: #363636;
     height: 80px;
     padding: 30px;
@@ -256,7 +292,7 @@ header nav ul {
 
 .redes-sociales:hover {
     background: #02fcda;
-}
+} */
 
 
 
