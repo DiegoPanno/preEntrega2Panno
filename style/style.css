@@ -70,8 +70,8 @@ header nav ul {
 } */
 
 /*----Botones---*/
-/* 
-.btn {
+
+/* .btn {
     font-weight: 100px;
     border: 1px solid black;
     border-radius: 40px;
@@ -88,14 +88,14 @@ header nav ul {
 
 .btn:hover {
     background-color: #615f5f;
-}
+} */
 
 /*-----Carrusel-----*/
 h1 {
     text-align: center;
     color: #615f5f;
     margin: 20px;
-} */
+}
 
 /* .colorCarrusel {
     background-color: rgba(0, 0, 0, 0.116);
@@ -136,7 +136,7 @@ h1 {
     bottom: 20px;
 } */
 
-/**-----Pages/Quines somos----*/
+/**-----Quines somos----*/
 
 /* .titulo-quienes-somos h2 {
     background-color: #04fcb231;
@@ -170,7 +170,7 @@ h1 {
 }
 
 
-/*----Pages/Productos----*/
+/*----PageProductos----*/
 
 
 .tienda-centro {
@@ -197,7 +197,7 @@ h1 {
     gap: 10px;
 }
 
-/*-----Pages/Productos/Tarjetas----*/
+/*-----Pages/Tarjetas----*/
 
 #tarjeta {
     padding: 10px;
