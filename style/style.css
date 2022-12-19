@@ -70,7 +70,7 @@ header nav ul {
 } */
 
 /*----Botones---*/
-
+/* 
 .btn {
     font-weight: 100px;
     border: 1px solid black;
@@ -95,7 +95,7 @@ h1 {
     text-align: center;
     color: #615f5f;
     margin: 20px;
-}
+} */
 
 /* .colorCarrusel {
     background-color: rgba(0, 0, 0, 0.116);
@@ -136,7 +136,7 @@ h1 {
     bottom: 20px;
 } */
 
-/**-----Quines somos----*/
+/**-----Pages/Quines somos----*/
 
 /* .titulo-quienes-somos h2 {
     background-color: #04fcb231;
@@ -170,7 +170,7 @@ h1 {
 }
 
 
-/*----Productos----*/
+/*----Pages/Productos----*/
 
 
 .tienda-centro {
@@ -197,7 +197,7 @@ h1 {
     gap: 10px;
 }
 
-/*-----Tarjetas----*/
+/*-----Pages/Productos/Tarjetas----*/
 
 #tarjeta {
     padding: 10px;
@@ -229,7 +229,7 @@ h1 {
 } */
 
 
-/*----Sucursales----*/
+/*----Pages/Sucursales----*/
 
 .sucursales {
     padding: 0;
@@ -314,7 +314,7 @@ h1 {
 
 
 
-/*----Contacto pagina----*/
+/*----Pages/Contacto----*/
 
 #contacto {
     padding: 30px;
