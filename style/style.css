@@ -92,9 +92,9 @@ header nav ul {
 
 /*-----Carrusel-----*/
 h1 {
-   text-align: center;
-   color: #615f5f;
-   margin: 20px;
+    text-align: center;
+    color: #615f5f;
+    margin: 20px;
 }
 
 /* .colorCarrusel {
@@ -130,11 +130,11 @@ h1 {
 
 /*------whatsapp-----*/
 
-.whatsapp {
+/* .whatsapp {
     position: fixed;
     right: 20px;
     bottom: 20px;
-}
+} */
 
 /**-----Quines somos----*/
 
@@ -173,9 +173,14 @@ h1 {
 /*----Productos----*/
 
 
+.tienda-centro {
+    height: 50vh;
+    width: 50vh;
+    padding: 10px;
 
+}
 
-.titulo-productos {
+/* .titulo-productos {
     background-color: #04fcb231;
     color: #615f5f;
     height: 200px;
@@ -183,19 +188,22 @@ h1 {
     padding: 80px;
     font-size: 50px;
     padding: 10px;
-} 
+} */
 
- .slider-productos {
-    
+.slider-productos {
+
     display: flex;
     overflow: auto;
     gap: 10px;
-} 
+}
 
 /*-----Tarjetas----*/
 
+#tarjeta {
+    padding: 10px;
+}
 
- .tarjeta-productos {
+/* .tarjeta-productos {
     min-width: 300px;
     height: 350px;
     display: flex;
@@ -205,7 +213,9 @@ h1 {
     gap: 20px;
 }
 
-.tarjeta-productos h2, .tarjeta-productos h3, .tarjeta-productos span {
+.tarjeta-productos h2,
+.tarjeta-productos h3,
+.tarjeta-productos span {
     font-size: 24px;
 }
 
@@ -216,12 +226,20 @@ h1 {
 
 .slider-productos {
     display: flex;
-}
+} */
 
 
 /*----Sucursales----*/
 
-.sucursales h2 {
+.sucursales {
+    padding: 0;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    size: 20px;
+}
+
+/* .sucursales h2 {
     background-color: #04fcb231;
     color: #615f5f;
     height: 200px;
@@ -229,15 +247,15 @@ h1 {
     padding: 80px;
     font-size: 50px;
 
-} 
+}
 
 
 
 .caja-sucursal {
     display: flex;
     flex-direction: column;
-    
-    
+
+
 }
 
 .locales {
@@ -245,7 +263,7 @@ h1 {
     padding: 10px;
     text-align: center;
     font-size: 35px;
-    
+
 }
 
 
@@ -255,7 +273,7 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
     height: 50em;
-}
+} */
 
 
 /*----Footer----*/
@@ -267,7 +285,7 @@ h1 {
 
 #hover-footer:hover {
     background-color: #252525;
-    
+
 }
 
 /* .copyright {
@@ -298,17 +316,21 @@ h1 {
 
 /*----Contacto pagina----*/
 
-.contacto-mapa {
+#contacto {
+    padding: 30px;
+}
+
+/* .contacto-mapa {
     background-color: #615f5f59;
-    padding: 30px; 
+    padding: 30px;
     display: flex;
     justify-content: center;
     gap: 30px;
-    
+
 
 }
 
 .borde-input {
     border-radius: 5px;
     background-color: #03fad12c;
-}
+} */
