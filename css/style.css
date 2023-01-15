@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2? family= Libre+Franklin:wght@300;500;800 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #615f5f;
+  margin: 20px;
+}
+
+.img-quienes-somos {
+  height: 50vh;
+  width: 50vh;
+  padding: 10px;
+}
+
+.envios {
+  background-color: #252525;
+  color: white;
+  text-align: center;
+  size: 5px;
+}
+
+.img-logo-nav {
+  width: 85px;
+  height: 85px;
+}
+
+.navbar-nav a {
+  color: white;
+}
+
+.logo-footer {
+  height: 80px;
+  width: 80px;
+}
+
+#hover-footer:hover {
+  background-color: #252525;
+}
+
+/*# sourceMappingURL=style.css.map */
