@@ -43,4 +43,12 @@ h1 {
   background-color: #252525;
 }
 
+.sucursales {
+  padding: 0;
+  background-color: #252525;
+  color: white;
+  text-align: center;
+  size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
