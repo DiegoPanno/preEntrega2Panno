@@ -22,7 +22,7 @@ h1 {
   background-color: #252525;
   color: white;
   text-align: center;
-  size: 5px;
+  font-size: 14px;
 }
 
 .img-logo-nav {
@@ -32,6 +32,10 @@ h1 {
 
 .navbar-nav a {
   color: white;
+}
+
+#productos h4 {
+  font-size: 15px;
 }
 
 .logo-footer {
@@ -57,6 +61,36 @@ h1 {
 
 #tarjeta {
   padding: 10px;
+}
+#tarjeta h3 {
+  font-size: 20px;
+}
+
+#sombraImg {
+  transition-duration: 2s;
+}
+#sombraImg:hover {
+  box-shadow: 0px 1px 2px 5px;
+}
+
+.contenedorTarjetas {
+  margin-left: 8vh;
+}
+
+.contenedorTarjetas {
+  margin-left: 8vh;
+}
+
+.contenedorTarjetas {
+  margin-left: 8vh;
+}
+
+.contenedorTarjetas {
+  margin-left: 8vh;
+}
+
+.contenedorTarjetas {
+  margin-left: 8vh;
 }
 
 /*# sourceMappingURL=style.css.map */
