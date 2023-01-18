@@ -67,6 +67,7 @@ h1 {
 }
 
 #sombraImg {
+  background: white;
   transition-duration: 2s;
 }
 #sombraImg:hover {
