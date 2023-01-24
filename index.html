@@ -114,14 +114,18 @@
                     <div class="col-lg order-lg-first d-flex flex-column justify-content-center">
                         <h3 class="text-center text-lg-start display-2 fw-bold">Quienes somos</h3>
                         <p class="text-center text-lg-start">Somos tu tienda on-line de productos saludables.
-                            Nuestra misión es ofrecerte los mejores productos del mercado, en un solo lugar, para que comas rico y sano.</p>
+                            Nuestra misión es ofrecerte los mejores productos del mercado, en un solo lugar, para que
+                            comas rico y sano.</p>
                     </div>
                 </article>
                 <article></article>
-                    <div class="col-lg order-lg-first d-flex flex-column justify-content-center">
-                        <h3 class="text-center text-lg-start display-2 fw-bold">Objetivo</h3>
-                        <p class="text-center text-lg-start">Nuestro objetivo principal es brindar a los clientes la mejor calidad, la mejor atención y al mejor precio. Con basta experiencia en el rubro grastronomico, ofrecemos una linea nueva de productos totalmente naturales. Una propuesta novedosa, buscamos llevar siempre los mejores producto sin tacc a los hogares de nuestros clientes.</p>
-                    </div>
+                <div class="col-lg order-lg-first d-flex flex-column justify-content-center">
+                    <h3 class="text-center text-lg-start display-2 fw-bold">Objetivo</h3>
+                    <p class="text-center text-lg-start">Nuestro objetivo principal es brindar a los clientes la mejor
+                        calidad, la mejor atención y al mejor precio. Con basta experiencia en el rubro grastronomico,
+                        ofrecemos una linea nueva de productos totalmente naturales. Una propuesta novedosa, buscamos
+                        llevar siempre los mejores producto sin tacc a los hogares de nuestros clientes.</p>
+                </div>
                 </article>
             </section>
     </main>
@@ -197,17 +201,22 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-lg-3">
-                    <p class="h3 text-dark">Contacto</p>
-                    <div class="mb-2">
-                        <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-2">
-                        <label for="exampleFormControlTextarea1" class="form-label">Hablemos!</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+                    <form name="contacto" netlify>
+                        <p class="h3 text-dark">Contacto</p>
+                        <div class="mb-2">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-2">
+                            <label for="exampleFormControlTextarea1" class="form-label">Hablemos!</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div data-netlify-recaptcha="true"></div>
+                                <input class="btn btn-inline" type="submit" value="Enviar">      
+                        </div>
+                    </form>
                 </div>
+
             </div>
         </div>
     </footer>
