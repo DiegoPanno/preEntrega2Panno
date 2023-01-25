@@ -18,6 +18,9 @@
 <body>
     <header>
         <h2 class="envios">Envios sin cargo a todo el país</h2>
+
+        <!--Menu encabezado de page contacto-->
+
         <nav class="navbar navbar-expand-lg bg-secondary bg-gradient border-bottom">
             <div class="container">
                 <a class="navbar-brand" href="../index.html"><img src="../img/logo sin fondo.png"
@@ -33,45 +36,60 @@
                         <li><a class="nav-link" href="../pages/quienesSomos.html">Quienes somos</a></li>
                         <li><a class="nav-link" href="../pages/sucursales.html">Sucursales</a></li>
                         <li><a class="nav-link" href="../pages/productos.html"></a></li>
-                        
+
                         <div class="xnavbar-expand{-sm|-md|-lg|-xl|-xxl}" id="productos">
-                           
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="../pages/productos.html" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
                                 <ul class="dropdown-menu mobile-nav-categories-container shadow">
-                                    <a class="modal-xs-list-item modal-xs-list-subtitle bg-secondary"  href="../pages/productos.html">
-                                        <h4 class="text-sm-start text-secondary" style="margin: 10px;" >Ver todos los productos</h4>
-                
-            </a>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/despensa.html">Despensa</a></li>
-                                    <li><a class="dropdown-item bg-secondary " href="../pages/heladera.html">Heladera</a></li>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/freezer.html">Freezer</a></li>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/bebidas.html">Bebidas</a></li>
+                                    <a class="modal-xs-list-item modal-xs-list-subtitle bg-secondary"
+                                        href="../pages/productos.html">
+                                        <h4 class="text-sm-start text-secondary" style="margin: 10px;">Ver todos los
+                                            productos</h4>
+
+                                    </a>
+                                    <li><a class="dropdown-item bg-secondary" href="../pages/despensa.html">Despensa</a>
+                                    </li>
+                                    <li><a class="dropdown-item bg-secondary "
+                                            href="../pages/heladera.html">Heladera</a></li>
+                                    <li><a class="dropdown-item bg-secondary" href="../pages/freezer.html">Freezer</a>
+                                    </li>
+                                    <li><a class="dropdown-item bg-secondary" href="../pages/bebidas.html">Bebidas</a>
+                                    </li>
                                 </ul>
                             </li>
                         </div>
-                        
+
                         <li><a class="nav-link active" href="../pages/contacto.html">Contacto!</a></li>
                     </div>
                 </ul>
             </div>
         </nav>
     </header>
+    <!--Contacto y ubicación en google maps-->
+
     <main id="contacto">
         <div class="container">
             <div class="row">
                 <div class="col-xs-10 col-lg-3">
-                    <p class="h3 text-dark">Contacto</p>
-                    <div class="mb-2">
-                        <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-2">
-                        <label for="exampleFormControlTextarea1" class="form-label">Dejame tu mensaje!</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+                    <form name="contacto" netlify>
+                        <p class="h3 text-dark">Contacto</p>
+                        <div class="mb-2">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-2">
+                            <label for="exampleFormControlTextarea1" class="form-label">Dejame tu mensaje!</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="mb-3">
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
+                            <br>
+                            <input class="btn btn-outline-dark" type="submit" value="Enviar">
+                        </div>
+                    </form>
                 </div>
                 <iframe class="d-flex justify-content-center col-lg order-lg-last"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.183749286698!2d-57.549251!3d-37.99617430000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc03dcca769f%3A0xdf561270ca315b99!2s25%20de%20Mayo%202954%2C%20B7600GWI%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1669666156350!5m2!1ses!2sar"
@@ -83,6 +101,9 @@
 
     </main>
     <footer>
+
+        <!-- Footer logo, Copyright con enlace al Inicio -->
+
         <div class="container-fluid">
             <div class="row p-5 bg-secondary text-white">
                 <div class="col-xs-12 col-lg-3">
@@ -91,6 +112,11 @@
                     <p>Apto celíacos</p>
                     <p>Copyright 2022</p>
                 </div>
+
+
+
+                <!--Nav del footer con enlaces-->
+
                 <div class="col-xs-12 col-lg-3">
                     <p class="h3 text-dark ">Links</p>
                     <div>
@@ -109,6 +135,9 @@
                         </ul>
                     </div>
                 </div>
+
+                <!--Redes sociales en el footer-->
+
                 <div class="col-xs-12 col-lg-3">
                     <p class="h3 text-dark">Redes Sociales</p>
                     <div class="mb-3">
@@ -152,17 +181,25 @@
                             </svg> WhatsApp</a>
                     </div>
                 </div>
+                <!-- contacto del footer -->
+
                 <div class="col-xs-12 col-lg-3">
-                    <p class="h3 text-dark">Contacto</p>
-                    <div class="mb-2">
-                        <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-2">
-                        <label for="exampleFormControlTextarea1" class="form-label">Hablemos!</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+                    <form name="contacto" netlify>
+                        <p class="h3 text-dark">Contacto</p>
+                        <div class="mb-2">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-2">
+                            <label for="exampleFormControlTextarea1" class="form-label">Hablemos!</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="mb-3">
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
+                            <input class="btn btn-inline" type="submit" value="Enviar">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

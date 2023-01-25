@@ -18,6 +18,9 @@
 <body>
     <header>
         <h2 class="envios">Envios sin cargo a todo el país</h2>
+
+        <!--Menu encabezado de page quienes somos-->
+
         <nav class="navbar navbar-expand-lg bg-secondary bg-gradient border-bottom">
             <div class="container">
                 <a class="navbar-brand" href="../index.html"><img src="../img/logo sin fondo.png"
@@ -65,6 +68,9 @@
         </nav>
     </header>
     <main>
+
+        <!--Sección quines somos con img-->
+
         <section class="container">
             <article class="row">
                 <div class="d-flex justify-content-center col-lg order-lg-last">
@@ -89,6 +95,9 @@
 
     </main>
     <footer>
+
+        <!-- Footer logo, Copyright con enlace al Inicio -->
+
         <div class="container-fluid">
             <div class="row p-5 bg-secondary text-white">
                 <div class="col-xs-12 col-lg-3">
@@ -97,6 +106,10 @@
                     <p>Apto celíacos</p>
                     <p>Copyright 2022</p>
                 </div>
+
+
+                 <!--Nav del footer con enlaces-->
+
                 <div class="col-xs-12 col-lg-3">
                     <p class="h3 text-dark ">Links</p>
                     <div>
@@ -115,6 +128,9 @@
                         </ul>
                     </div>
                 </div>
+
+                <!--Redes sociales en el footer-->
+
                 <div class="col-xs-12 col-lg-3">
                     <p class="h3 text-dark">Redes Sociales</p>
                     <div class="mb-3">
@@ -158,17 +174,25 @@
                             </svg> WhatsApp</a>
                     </div>
                 </div>
+                <!-- contacto del footer -->
+                
                 <div class="col-xs-12 col-lg-3">
-                    <p class="h3 text-dark">Contacto</p>
-                    <div class="mb-2">
-                        <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-2">
-                        <label for="exampleFormControlTextarea1" class="form-label">Hablemos!</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
+                    <form name="contacto" netlify>
+                        <p class="h3 text-dark">Contacto</p>
+                        <div class="mb-2">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-2">
+                            <label for="exampleFormControlTextarea1" class="form-label">Hablemos!</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div class="mb-3">
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
+                            <input class="btn btn-inline" type="submit" value="Enviar">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
