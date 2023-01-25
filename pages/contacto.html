@@ -76,6 +76,9 @@
                     <form name="contacto" netlify>
                         <p class="h3 text-dark">Contacto</p>
                         <div class="mb-2">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre Apellido</label>
+                            <input type="NombreApellido" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Nombre Apellido">
                             <label for="exampleFormControlInput1" class="form-label">Email</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
                                 placeholder="nombre@ejemplo.com">
@@ -83,9 +86,9 @@
                         <div class="mb-2">
                             <label for="exampleFormControlTextarea1" class="form-label">Dejame tu mensaje!</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            <div class="mb-3">
-                                <div data-netlify-recaptcha="true"></div>
-                            </div>
+
+                            <div data-netlify-recaptcha="true"></div>
+
                             <br>
                             <input class="btn btn-outline-dark" type="submit" value="Enviar">
                         </div>
