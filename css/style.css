@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2? family= Libre+Franklin:wght@300;500;800 & display=swap");
-@import "animate.css";
 * {
   margin: 0;
   padding: 0;
@@ -128,9 +127,8 @@ h1 {
 }
 .imgFondo h1 {
   height: 80px;
-  background: #615f5f;
-  font-size: 30px;
-  color: white;
+  font-size: 70px;
+  color: rgba(247, 243, 243, 0.758);
   padding: 20px;
 }
 
