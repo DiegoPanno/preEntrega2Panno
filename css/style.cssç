@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2? family= Libre+Franklin:wght@300;500;800 & display=swap");
-@import "animate.css";
 * {
   margin: 0;
   padding: 0;
@@ -134,4 +133,4 @@ h1 {
   padding: 20px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css%C3%A7.map */
