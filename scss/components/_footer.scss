@@ -4,8 +4,32 @@
 
 }
 
-#hover-footer:hover {
+.hover-footer:hover {
     background-color: $color-secundario;
 
 
 }
+
+.contenedorFotter {
+    border: solid rgba(0, 0, 0, 0.085);
+    border-radius: 15px;
+    
+    &:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    
+}
+
+.imgTextarea {
+    
+    background-image: url(/img/imglogogluenchico.ico);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+
+    
+
+}
+    

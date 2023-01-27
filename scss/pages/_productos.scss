@@ -1,3 +1,21 @@
+h3 {
+    font-size: 14px;
+    
+}
+
+
 .contenedorTarjetas {
     margin-left: 8vh;
+}
+
+
+
+#tarjeta {
+    padding: 10px;
+    
+    .ifram {
+        border-radius: 15px;
+        border: solid black;
+        
+    }
 }

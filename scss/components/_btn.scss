@@ -1,0 +1,26 @@
+.btnProducto {
+    background: $color-secundario;
+    border:solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: $color-menu;
+    text-decoration: none;
+    &:hover {
+        color: aqua;
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+   
+    
+}
+ 
+.btnTarjeta {
+    
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+
+    &:hover {
+        color: rgb(255, 0, 0);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+}
