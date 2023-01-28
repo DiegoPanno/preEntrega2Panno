@@ -1,14 +1,12 @@
-
-
 .containerTarjetas {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 
-    
-    .tarjetas{
+
+
+    .tarjetas {
         width: 330px;
         height: 430px;
         border-radius: 8px;
@@ -40,16 +38,44 @@
 }
 
 .respuestaContacto {
-   
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+
     .tarjetaContacto {
         margin: 0 auto;
         padding-top: 30vh;
+
+        .card-body {
+            background: rgb(2, 251, 214);
+
+
+        }
     }
 }
 
 
 
-     
+
+
+
+
+.mensajeCompra {
+    padding: o auto;
+    margin-bottom: 10px;
+
+    .mensajeEnvio {
+        color: black;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .mensajeCuerpo {
+        color: rgba(41, 40, 40, 0.689);
+        font-size: 35px;
+        text-align: center;
+
+        
+    }
+
+}

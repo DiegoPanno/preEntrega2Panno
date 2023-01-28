@@ -117,6 +117,24 @@ h1 {
   margin: 0 auto;
   padding-top: 30vh;
 }
+.respuestaContacto .tarjetaContacto .card-body {
+  background: rgb(2, 251, 214);
+}
+
+.mensajeCompra {
+  padding: o auto;
+  margin-bottom: 10px;
+}
+.mensajeCompra .mensajeEnvio {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+.mensajeCompra .mensajeCuerpo {
+  color: rgba(41, 40, 40, 0.689);
+  font-size: 35px;
+  text-align: center;
+}
 
 h3 {
   font-size: 14px;
@@ -164,12 +182,12 @@ h3 {
 }
 
 .imgFondo {
-  background-image: url(/img/fondoInterior.jpeg);
+  background-image: url(/img/imgfondoInterior.jpeg);
 }
 .imgFondo h1 {
   height: 80px;
   font-size: 70px;
-  color: rgba(247, 243, 243, 0.758);
+  color: rgba(247, 243, 243, 0.947);
   padding: 20px;
 }
 
@@ -194,6 +212,47 @@ h3 {
 .btnTarjeta:hover {
   color: rgb(255, 0, 0);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.btnmensaje {
+  background: #615f5f;
+  color: white;
+  text-decoration: none;
+  border: solid rgba(41, 40, 40, 0.689);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.819);
+}
+
+.mensajeBody {
+  background: #252525;
+}
+.mensajeBody .mensajeSection {
+  background: #615f5f;
+}
+.mensajeBody .mensajeSection .mensaje {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+.mensajeBody .mensajeSection .mensajeDos {
+  color: #252525;
+  font-size: 60px;
+  text-align: center;
+  padding: 15px;
+}
+.mensajeBody .mensajeContenedor {
+  background: rgba(230, 230, 228, 0.642);
+}
+
+.mensajeLogoContenedor {
+  display: flex;
+  justify-content: center;
+}
+.mensajeLogoContenedor .mensajeLogo {
+  height: 100px;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

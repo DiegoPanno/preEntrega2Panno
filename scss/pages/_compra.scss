@@ -1,0 +1,39 @@
+.mensajeBody{
+    background: $color-secundario;
+
+    .mensajeSection {
+        background: $color-primario;
+        .mensaje {
+            color: $color-menu;
+            font-size: 30px;
+            text-align: center;
+            padding: 30px;
+        }
+        .mensajeDos {
+            color: $color-secundario;
+            font-size: 60px;
+            text-align: center;
+            padding: 15px;
+        }
+    }
+
+    .mensajeContenedor {
+        background: rgba(230, 230, 228, 0.642);
+    }
+}
+
+
+.mensajeLogoContenedor {
+    display: flex;
+    justify-content: center;
+
+    .mensajeLogo  {
+        height: 100px;
+        align-items: center;
+        
+        
+    
+    }
+}
+
+
