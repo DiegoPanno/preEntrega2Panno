@@ -494,7 +494,7 @@ cargarProductos(productos);
 
 menuCategoria.forEach(boton => {
     
-    console.log('hola');
+    
     boton.addEventListener("click", (e) => {
         e.currentTarget.classList.add("active");
         menuCategoria.forEach(boton => boton.classList.remove("active"));
@@ -513,9 +513,7 @@ menuCategoria.forEach(boton => {
             cargarProductos(productos);
         };
 
-        console.log('hola');
-        console.log('hola');
-        console.log('hola');
+        
     })
 })
 
@@ -545,6 +543,27 @@ if (productoEnCarritoLS) {
 }
 
 function agregarAlCarrito(e) {
+
+        Toastify({
+          text: "Agregaste un producto 😃",
+          duration: 3000,
+          close: true,
+          gravity: "top", // `top` or `bottom`
+          position: "right", // `left`, `center` or `right`
+          stopOnFocus: true, 
+          style: {
+            color: "rgb(6, 6, 6)",
+          background: "rgb(0, 255, 255)",
+          borderRadius: "2rem",
+          textTransform: "uppercase",
+          fontSize: ".75rem"
+          },
+          offset: {
+            x: '1.5rem',
+            y: '1.5rem' 
+          },
+         onClick: function(){} 
+         }).showToast();
 
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
