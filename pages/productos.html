@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Alimentos saludables sin gluten en un solo lugar! Envíos a todo el país.">
+    <meta name="description" content="Alimentos saludables sin gluten en un solo lugar! Envíos a todo el país.">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -14,9 +13,11 @@
     <link rel="shortcut icon" href="../img/imglogogluenchico.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    
 </head>
 
-<body>
+<body class="body-productos">
     <header>
         <h3 class="envios animate__animated animate__heartBeat">Envios sin cargo a todo el país</h3>
 
@@ -40,28 +41,33 @@
                         <div class="xnavbar-expand{-sm|-md|-lg|-xl|-xxl}" id="productos">
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link active dropdown-toggle" href="../pages/productos.html" role="button"
+                                <a   class="nav-link active dropdown-toggle" href="" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
                                 <ul class="dropdown-menu mobile-nav-categories-container shadowy">
-                                    <a class="modal-xs-list-item modal-xs-list-subtitle bg-secondary"
-                                        href="../pages/productos.html">
-                                        <h3 class="text-sm-start text-secondary" style="margin: 10px;">Ver todos los
+                                    <a  class="modal-xs-list-item modal-xs-list-subtitle bg-secondary"
+                                        href="">
+                                        <h3 id="todos" class="text-sm-start text-secondary boton-categoria active" style="margin: 10px;">Todos los
                                             productos</h3>
 
                                     </a>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/despensa.html">Despensa</a>
+                                    <li><a id="despensa" class="dropdown-item bg-secondary boton-categoria" >Despensa</a>
                                     </li>
-                                    <li><a class="dropdown-item bg-secondary "
-                                            href="../pages/heladera.html">Heladera</a></li>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/freezer.html">Freezer</a>
+                                    <li><a id="heladera" class="dropdown-item bg-secondary boton-categoria">Heladera</a></li>
+                                    <li><a id="freezer" class="dropdown-item bg-secondary boton-categoria" >Freezer</a>
                                     </li>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/bebidas.html">Bebidas</a>
+                                    <li><a id="bebidas" class="dropdown-item bg-secondary boton-categoria" >Bebidas</a>
                                     </li>
                                 </ul>
                             </li>
                         </div>
 
                         <li><a class="nav-link" href="../pages/contacto.html">Contacto!</a></li>
+                        <li><a class="nav-link" href="../pages/carritodecompra.html"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-cart2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                                </svg><span id="numerito" class="numerito">0</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -71,135 +77,18 @@
     <!--Sencción tarjeta de page productos-->
 
     <main>
-        <h1>Productos</h1>
+        <h1 id="tituloPrincipal">Todos los producto productos</h1>
         <section>
-            <div class="containerTarjetas">
+            <div id="contenedorProducto" class="contenedorProducto">
 
-                <article class="tarjetas">
-                    <img src="../img/despensa/imgabucelazucarimpalpable.jpg" alt="Azúcar impalpable">
-                    <h2>Azúcar impalpable</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-                <article class="tarjetas">
-                    <img src="../img/despensa/imgcerroazulddl.jpg" alt="Alfajor Cerro Azul">
-                    <h2>Alfajor Cerro Azul</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/freezer/imgrapichips.jpg" alt="Rapiditas sin tacc">
-                    <h2>Rapichip</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/freezer/imgseichoc.jpg" alt="Helado Seichoc">
-                    <h2>Barra de helado Seichoc</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/despensa/imgremolacha.jpg" alt="Chips de remolacha">
-                    <h2>Chips de Remolacha</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/despensa/imgzanahoria.jpg" alt="Chip de Zanahoria">
-                    <h2>Chips de Zanahoria</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/freezer/imghelachoco.jpg" alt="Helado">
-                    <h2>Helado Seitu</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/bebida/imgvinoananias.jpg" alt="Vino Malbec">
-                    <h2>Vino Malvec Ananias</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/bebida/imglinz.jpg" alt="Cerveza Linz">
-                    <h2>Cerveza Linz</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/bebida/imghoney.jpg" alt="Cerveza Honey">
-                    <h2>Cerveza Honey</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/bebida/imglester.jpg" alt="Cerveza Lester">
-                    <h2>Cerveza Lester</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-                <article class="tarjetas">
-                    <img src="../img/heladera/imgamadde.jpg" alt="Lecha Amande">
-                    <h2>Lecha Amande</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/heladera/imglechemanichoco.jpg"
-                        alt="Leche de mani con chocolate">
-                    <h2>Leche de mani con chocolate</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/heladera/imglechemani.jpg" alt="Leche de mani">
-                    <h2>Leche de mani</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/heladera/imglechedecoco.jpg" alt="Leche de coco">
-                    <h2>Leche de coco</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/heladera/imgcocochoco.jpg" alt="Leche de coco original">
-                    <h2>Leche de coco original</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/heladera/imglechecomun.jpg" alt="Leche Clasica">
-                    <h2>Leche Clásica</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/heladera/imgvrink.jpg" alt="leche de almedra">
-                    <h2>Leche de almendras Vrink</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/heladera/imglechesilks.jpg" alt="leche de almedra">
-                    <h2>Leche de almendras Silk</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
-
-                <article class="tarjetas">
-                    <img src="../img/heladera/imgmanicitalite.jpg" alt="Leche de mani">
-                    <h2>Leche de maní Viatalite</h2>
-                    <a href="../pages/compra.html" class="btnProducto">Comprar!</a>
-                </article>
+                <!---Esto se llena con js--->
             </div>
         </section>
     </main>
 
     <div id="tarjeta" class="d-flex justify-content-center">
-        <iframe class="ifram" width="560" height="315" src="https://www.youtube.com/embed/SLe82gRDkKY" title="YouTube video player"
-            frameborder="0"
+        <iframe class="ifram" width="560" height="315" src="https://www.youtube.com/embed/SLe82gRDkKY"
+            title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
@@ -235,7 +124,7 @@
                     </div>
                 </div>
 
-            
+
                 <!--Redes sociales en el footer-->
 
                 <div class="col-xs-12 col-lg-3">
@@ -301,11 +190,13 @@
                             <input class="btnTarjeta" type="submit" value="Enviar">
                         </div>
                     </form>
-            </div>
+                </div>
             </div>
         </div>
 
     </footer>
+    <script src="../js/menu.js"></script>
+    <script src="../js/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();

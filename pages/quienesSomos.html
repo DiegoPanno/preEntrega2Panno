@@ -14,6 +14,7 @@
     <link rel="shortcut icon" href="../img/imglogogluenchico.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
 </head>
 
 <body>
@@ -37,27 +38,32 @@
                         <li><a class="nav-link active" href="../pages/quienesSomos.html">Quienes somos</a></li>
                         <li><a class="nav-link" href="../pages/productos.html"></a></li>
                         <div class="xnavbar-expand{-sm|-md|-lg|-xl|-xxl}" id="productos">
+                            
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="../pages/productos.html" role="button"
+                                <a  id="todos" class="nav-link active dropdown-toggle" href="../pages/productos.html" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-                                <ul class="dropdown-menu mobile-nav-categories-container shadow">
-                                    <a class="modal-xs-list-item modal-xs-list-subtitle bg-secondary"
+                                <ul class="dropdown-menu mobile-nav-categories-container shadowy">
+                                    <a class="modal-xs-list-item modal-xs-list-subtitle bg-secondary boton-categoria active"
                                         href="../pages/productos.html">
                                         <h3 class="text-sm-start text-secondary" style="margin: 10px;">Ver todos los
                                             productos</h3>
+
                                     </a>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/despensa.html">Despensa</a>
+                                    <li><a id="despensa" class="dropdown-item bg-secondary boton-categoria" href="../pages/productos.html">Despensa</a>
                                     </li>
-                                    <li><a class="dropdown-item bg-secondary "
-                                            href="../pages/heladera.html">Heladera</a></li>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/freezer.html">Freezer</a>
+                                    <li><a id="Heladera" class="dropdown-item bg-secondary  boton-categoria"
+                                            href="../pages/productos.html">Heladera</a></li>
+                                    <li><a id="freezer" class="dropdown-item bg-secondary boton-categoria" href="../pages/productos.html">Freezer</a>
                                     </li>
-                                    <li><a class="dropdown-item bg-secondary" href="../pages/bebidas.html">Bebidas</a>
+                                    <li><a id="bebidas" class="dropdown-item bg-secondary boton-categoria" href="../pages/productos.html">Bebidas</a>
                                     </li>
                                 </ul>
                             </li>
                         </div>
                         <li><a class="nav-link" href="../pages/contacto.html">Contacto!</a></li>
+                        <li><a class="nav-link" href="../pages/carritodecompra.html"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                          </svg><span class="numerito">0</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -237,7 +243,9 @@
                 </div>
             </div>
         </div>
-
+        <script src="../js/menu.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/carrito.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();

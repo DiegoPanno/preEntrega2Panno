@@ -1,40 +1,40 @@
-.containerTarjetas {
-    width: 100%;
+
+
+
+.contenedorProducto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
-
-    .tarjetas {
-        width: 330px;
-        height: 430px;
-        border-radius: 8px;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        margin: 20px;
-        text-align: center;
+    gap: 1rem;
+    margin: 1rem;
+    
+    .tarjetas-producto{
+        border-radius: 1rem;
+        background-color: $color-primario;
+        padding: 1rem;
+        width: 380px;
+        box-shadow: 0 2px 2px rgba(2, 252, 194, 0.724);
         transition: all 0.25s;
-
-
-        img {
-            width: 330px;
-            height: 320px;
-        }
-
+        
         &:hover {
-            transform: translateY(-15px);
-            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-        }
-
-        h2 {
-            padding: 5px;
-            font-size: 20px;
-            font-weight: bold;
-        }
+             transform: translateY(-15px);
+             box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+            }
+    }
+    h2 {
+        padding: 5px;
+        font-size: 20px;
+        
+        color: aqua;
+    }
+    .producto-imagen {
+        width: 330px;
+        height: 320px;;
     }
 
-
+    .producto-precio {
+        color: aqua;
+    }
 }
 
 .respuestaContacto {
