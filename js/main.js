@@ -547,6 +547,7 @@ function agregarAlCarrito(e) {
         Toastify({
           text: "Agregaste un producto 😃",
           duration: 3000,
+          destination: "../pages/carritodecompra.html",
           close: true,
           gravity: "top", // `top` or `bottom`
           position: "right", // `left`, `center` or `right`
