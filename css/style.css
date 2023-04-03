@@ -486,5 +486,20 @@ nav li a {
     row-gap: 1rem;
   }
 }
+.sumar {
+  cursor: pointer;
+  color: blue;
+  border: none;
+  background-color: transparent;
+  user-select: none;
+}
+
+.restar {
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+  border: none;
+  background-color: transparent;
+  user-select: none;
+}
 
 /*# sourceMappingURL=style.css.map */

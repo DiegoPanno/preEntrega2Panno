@@ -283,3 +283,19 @@ nav li {
   }
   
 }
+
+.sumar {
+  cursor: pointer;
+  color: blue;
+  border: none;
+  background-color: transparent ;
+  user-select: none;
+}
+
+.restar {
+   cursor: pointer;
+   color: rgb(255, 0, 0);
+   border: none;
+   background-color: transparent ;
+   user-select: none;
+ }

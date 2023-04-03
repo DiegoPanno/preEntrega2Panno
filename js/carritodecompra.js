@@ -25,7 +25,7 @@ function cargarProductosCarrito() {
         contenedorCarritoComprado.classList.add("disabled");
 
         contenedorCarritoProducto.innerHTML = "";
-
+        
 
         productoEnCarrito.forEach(producto => {
             const div = document.createElement("div");
@@ -39,6 +39,14 @@ function cargarProductosCarrito() {
         <div class="carrito-producto-cantidad">
              <small>Cantidad</small>
              <p>${producto.cantidad}</p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-circle sumar" viewBox="0 0 16 16">
+             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+             <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+             </svg>
+             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-dash-circle restar" viewBox="0 0 16 16">
+             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+             <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+             </svg>
         </div>
         <div class="carrito-producto-precio">
                 <small>Precio</small>
@@ -56,6 +64,28 @@ function cargarProductosCarrito() {
         `;
 
             contenedorCarritoProducto.append(div);
+
+            let restar = div.querySelector('.restar');
+            restar.addEventListener('click', () => {
+                if (producto.cantidad !== 1) {
+                    producto.cantidad--;
+                }
+                localStorage.setItem("prod", JSON.stringify(productoEnCarrito));
+                cargarProductosCarrito();
+            });
+
+            let sumar = div.querySelector('.sumar');
+            sumar.addEventListener('click', () => {
+                
+                    producto.cantidad++;
+                
+                localStorage.setItem("prod", JSON.stringify(productoEnCarrito));
+                cargarProductosCarrito();
+            });
+
+            
+
+
         })
 
 
@@ -71,6 +101,7 @@ function cargarProductosCarrito() {
 
     actualizarbtnEliminar();
     actualizarTotal();
+    
 }
 
 cargarProductosCarrito();
@@ -81,7 +112,7 @@ function actualizarbtnEliminar() {
     btnEliminar.forEach(boton => {
         boton.addEventListener("click", eliminarDelCarrito);
     });
-
+    
 }
 
 
@@ -92,8 +123,8 @@ function eliminarDelCarrito(e) {
     productoEnCarrito.splice(index, 1);
     cargarProductosCarrito();
 
+   
     localStorage.setItem("prod", JSON.stringify(productoEnCarrito));
-
 }
 
 
@@ -125,8 +156,4 @@ function comprarCarrito() {
     contenedorCarritoComprado.classList.remove("disabled");
 
 }
-
-
-
-
 
