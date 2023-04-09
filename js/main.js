@@ -549,7 +549,7 @@ function agregarAlCarrito(e) {
           duration: 3000,
           destination: "../pages/carritodecompra.html",
           close: true,
-          gravity: "top", // `top` or `bottom`
+          gravity: "bottom", // `top` or `bottom`
           position: "right", // `left`, `center` or `right`
           stopOnFocus: true, 
           style: {

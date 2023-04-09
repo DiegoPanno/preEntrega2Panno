@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    
-    
+
+
 </head>
 
 <body>
@@ -30,6 +30,10 @@
             <div class="container">
                 <a class="navbar-brand" href="./index.html"><img src="./img/imglogosinfondo.png"
                         alt="Logo de Tienda libre de gluten" class="img-logo-nav"></a>
+        <!-- Consumi API de clima  -->
+                <img class="iconoAnimado" src="" alt="">
+                <div id="clima" class="clima"></div>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -55,7 +59,8 @@
                                     </a>
                                     <li><a class="dropdown-item bg-secondary" href="./pages/productos.html">Despensa</a>
                                     </li>
-                                    <li><a class="dropdown-item bg-secondary " href="./pages/productos.html">Heladera</a>
+                                    <li><a class="dropdown-item bg-secondary "
+                                            href="./pages/productos.html">Heladera</a>
                                     </li>
                                     <li><a class="dropdown-item bg-secondary" href="./pages/productos.html">Freezer</a>
                                     </li>
@@ -66,7 +71,7 @@
                         </div>
 
                         <li><a class="nav-link" href="./pages/contacto.html">Contacto!</a></li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -78,7 +83,7 @@
         <!--Sección carrusel-->
 
         <section>
-            
+
             <h1>Tienda libre de gluten</h1>
             <div id="carrusel" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
@@ -116,8 +121,8 @@
         <section class="container">
             <article class="row">
                 <div class="d-flex justify-content-center col-xs col-lg">
-                    <img src="./img/imgagl.jpg" alt="Como leer un alimento libre de gluten" class="img-quienes-somos imgCarrusel"
-                        data-aos="flip-right">
+                    <img src="./img/imgagl.jpg" alt="Como leer un alimento libre de gluten"
+                        class="img-quienes-somos imgCarrusel" data-aos="flip-right">
                 </div>
                 <div class="col-lg order-lg-first d-flex flex-column justify-content-center">
                     <h2 class="text-center text-lg-start display-2 fw-bold">Quienes somos</h2>
@@ -159,11 +164,15 @@
                     <p class="h3 text-dark ">Links</p>
                     <div>
                         <ul class="list-unstyled">
-                            <li class="mb-3"><a href="./index.html" class="text-white text-decoration-none hover-footer">Inicio</a>
+                            <li class="mb-3"><a href="./index.html"
+                                    class="text-white text-decoration-none hover-footer">Inicio</a>
                             </li>
-                            <li class="mb-3"><a href="./pages/quienesSomos.html" class="text-white text-decoration-none hover-footer">Quienes somos</a></li>
-                            <li class="mb-3"><a href="./pages/productos.html" class="text-white text-decoration-none hover-footer">Productos</a></li>
-                            <li class="mb-3"><a href="./pages/contacto.html" class="text-white text-decoration-none  hover-footer">Contacto</a></li>
+                            <li class="mb-3"><a href="./pages/quienesSomos.html"
+                                    class="text-white text-decoration-none hover-footer">Quienes somos</a></li>
+                            <li class="mb-3"><a href="./pages/productos.html"
+                                    class="text-white text-decoration-none hover-footer">Productos</a></li>
+                            <li class="mb-3"><a href="./pages/contacto.html"
+                                    class="text-white text-decoration-none  hover-footer">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -232,7 +241,7 @@
                             <input class="btnTarjeta" type="submit" value="Enviar">
                         </div>
                     </form>
-            </div>
+                </div>
 
             </div>
         </div>
@@ -240,7 +249,8 @@
     <script src="./js/main.js"></script>
     <script src="./js/carritodecompra.js"></script>
     <script src="./js/menu.js"></script>
-    
+    <script src="./js/clima.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script>
