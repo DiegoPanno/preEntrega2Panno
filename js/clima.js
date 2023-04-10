@@ -40,6 +40,12 @@ window.addEventListener('load', () => {
                         case '03d':
                             icono.src = "animated/cloudy-day-3.svg"
                             break;
+                        case '04d':
+                            icono.src = "animated/cloudy.svg"
+                            break;
+                        case '04n':
+                            icono.src = "animated/cloudy.svg"
+                            break;
                         case '09n':
                             icono.src = "animated/rainy-7.svg"
                             break;
